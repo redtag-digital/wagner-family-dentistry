@@ -1,0 +1,24 @@
+{
+  "name": "wagner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i src/input.css -o css/style.css --minify",
+    "watch": "npx tailwindcss -i src/input.css -o css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redtag-digital/wagner-family-dentistry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redtag-digital/wagner-family-dentistry/issues"
+  },
+  "homepage": "https://github.com/redtag-digital/wagner-family-dentistry#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
